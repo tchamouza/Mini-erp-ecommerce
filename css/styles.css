@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*En tete de la page*/
+header {
+    padding: 25px 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    background-color: orange;
+}
+
+h1 {
+    width: 25%;
+    text-align: center;
+}
+
+nav {
+    width: 45%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*le Corps de la page*/
+
+/*page de connexion et inscription*/
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+form h1 {
+    margin-left: 25%;
+    width: 50%;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: midnightblue;
+}
+
+label {
+    margin-left: 12.5%;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #555;
+}
+
+input {
+    text-align: center;
+    margin-left: 12.5%;
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: black;
+}
+
+button {
+    margin-left: 25%;
+    width: 50%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+/*page d'acceuil*/
+/*section 1 */
+section.section1 {
+    /*background-image:url(../images/Screenshot-2025-05-05-123546.png);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+section.section1 h2 {
+
+    text-align: center;
+}
+
+/*section 2 */
+section.section2 {
+    /*background-image:url(../images/Screenshot-2025-05-05-123546.png);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/*section 3 */
+section.section3 {
+    /*background-image:url(../images/Screenshot-2025-05-05-123546.png);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/*section 4 */
+section.section4 {
+    /*background-image:url(../images/Screenshot-2025-05-05-123546.png);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/*le Pied de la page*/
+footer {
+    text-align: center;
+}
