@@ -25,7 +25,7 @@
         </div>
         <div class="box">
             <img src="./images/télécharger.jpg" alt="">
-            <p>Swith</p>
+            <p>Switch</p>
         </div>
         <div class="box">
             <img src="./images/th.jpg" alt="">

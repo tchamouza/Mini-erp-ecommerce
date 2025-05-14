@@ -10,7 +10,8 @@ header {
     margin: 0;
     display: flex;
     width: 100%;
-    background-color: orange;
+    background-color: #FF6600;
+    color: white;
 }
 
 h1 {
@@ -34,9 +35,8 @@ nav ul li {
     list-style: none;
     display: inline-block;
     margin: 10px;
-    background-color: black;
-    border: 2px solid black;
-    border-radius: 10px;
+    background-color: #FF6600;
+    color: white;
     padding: 10px;
 }
 
@@ -44,53 +44,54 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+
 /*Responsive design*/
 @media (max-width: 768px) {
-  header {
-    padding: 15px;
-    flex-wrap: wrap;
-  }
+    header {
+        padding: 15px;
+        flex-wrap: wrap;
+    }
 
-  h1 {
-    font-size: 24px;
-    width: 40%;
-    text-align: left;
-    margin-left: 10px;
-  }
+    h1 {
+        font-size: 24px;
+        width: 40%;
+        text-align: left;
+        margin-left: 10px;
+    }
 
-  nav {
-    width: 55%;
-    margin-left: auto;
-    text-align: right;
-  }
+    nav {
+        width: 55%;
+        margin-left: auto;
+        text-align: right;
+    }
 
-  nav ul {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-  }
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
 
-  nav ul li {
-    margin: 5px;
-    padding: 8px 12px;
-  }
+    nav ul li {
+        margin: 5px;
+        padding: 8px 12px;
+    }
 }
 
 @media (max-width: 480px) {
-  h1 {
-    font-size: 20px;
-    width: 50%;
-  }
+    h1 {
+        font-size: 20px;
+        width: 50%;
+    }
 
-  nav {
-    width: 50%;
-  }
+    nav {
+        width: 50%;
+    }
 
-  nav ul li {
-    margin: 3px;
-    padding: 6px 10px;
-    font-size: 14px;
-  }
+    nav ul li {
+        margin: 3px;
+        padding: 6px 10px;
+        font-size: 14px;
+    }
 }
 
 /*le Corps de la page*/
@@ -143,7 +144,7 @@ button {
     margin-left: 25%;
     width: 50%;
     padding: 10px;
-    background-color: black;
+    background-color:  #0052CC;
     color: white;
     border: none;
     border-radius: 5px;
@@ -153,7 +154,7 @@ button {
 }
 
 button:hover {
-    background-color: orange;
+    background-color: #003D99;
 }
 
 span {
@@ -182,7 +183,7 @@ section.section1 {
 }
 
 section.section1 h2 {
-    color: rgba(214, 153, 40, 0.932);
+    color: #FF6600;
     font-size: 50px;
     margin-bottom: 10px;
     text-align: center;
@@ -197,14 +198,14 @@ section.section1 p {
 section.section1 a.btn {
     padding: 10px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #0052CC;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 section.section1 a.btn:hover {
     color: white;
-    background-color: rgba(214, 153, 40, 0.932);
+    background-color:#003D99;
     ;
 }
 
@@ -358,6 +359,7 @@ section.section4 form.section4-box textarea {
     outline: none;
     transition: border-color 0.3s ease;
 }
+
 /*Responsive design*/
 
 /*le Pied de la page*/
@@ -369,9 +371,11 @@ footer {
     background-color: #2c3e50;
     text-align: center;
 }
-footer p{
+
+footer p {
     color: white;
 }
+
 footer div.footer-socials {
     display: flex;
     gap: 15px;
