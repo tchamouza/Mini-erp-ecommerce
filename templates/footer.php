@@ -8,7 +8,8 @@
         <a href="https://facebook.com/tonprofil" target="_blank"><i class="fab fa-facebook-f"></i></a>
     </div>
 </footer>
-<script src="./js/script.js"></script>
+<script src="../js/scripts.js"></script>
+<script src="./js/scripts.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-<?php include './templates/header.php'; ?>
+<?php include './templates/header-login.php'; ?>
 
 <form action="./includes/auth.php" method="POST" autocomplete="off">
             <h1 style="color: midnightblue;">Connexion</h1>
